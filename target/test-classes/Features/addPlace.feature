@@ -1,7 +1,7 @@
 Feature: Validation Place API
 
 @AddPlace
-#First Test Case is add
+#First Test Case is addPlace
 Scenario Outline: Verify Places is beign successfully added using AddPlaceAPI
 	Given Add Place Payload with "<name>" "<language>" "<address>"
 	When user calls "AddPlaceAPI" with "POST" http request
@@ -17,7 +17,7 @@ Scenario Outline: Verify Places is beign successfully added using AddPlaceAPI
  #			|Ram |Tamil   |CPT    |
  
  @DeletePlace
- #Second Test Case is delete
+ #Second Test Case is deletePlace
  Scenario: To verify delete is working fine
  	Given DeletePlace Payload
  	When user calls "DeletePlaceAPI" with "POST" http request
