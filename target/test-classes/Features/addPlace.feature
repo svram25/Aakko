@@ -17,6 +17,7 @@ Scenario Outline: Verify Places is beign successfully added using AddPlaceAPI
  #			|Ram |Tamil   |CPT    |
  
  @DeletePlace
+ #Second Test Case
  Scenario: To verify delete is working fine
  	Given DeletePlace Payload
  	When user calls "DeletePlaceAPI" with "POST" http request
