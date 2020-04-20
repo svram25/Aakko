@@ -1,7 +1,7 @@
 Feature: Validation Place API
 
 @AddPlace
-#First Test Case
+#First Test Case is add
 Scenario Outline: Verify Places is beign successfully added using AddPlaceAPI
 	Given Add Place Payload with "<name>" "<language>" "<address>"
 	When user calls "AddPlaceAPI" with "POST" http request
